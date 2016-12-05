@@ -1,0 +1,163 @@
+style_fusion.css
+
+.main, section {
+   height: 100% !important;
+}
+.layout{/*max-height: 250% !important;*/}
+
+section#anch-overview {
+   /*height: 100vh !important;*/
+}
+section#anch-gallery {
+    /*height: 100vh !important;*/
+}
+section#anch-oq {
+    /*height: 120vh !important;*/
+}
+section#anch-fi {
+    /*height: 100vh !important;*/
+}
+section#anch-rh {
+    /*height: 100vh !important;*/
+}
+section#anch-principios, section#anch-contact {
+    height: 120vh !important;
+}
+.qualidade{
+text-align:center;
+}
+#accordion{
+height: 100% !important;
+width:100%;
+float:left;
+}
+#accordion1{
+height: 100% !important;
+width:100%;
+float:left;
+}
+#accordionquo{
+  height: 100% !important;
+  width:100%;
+  float:left;
+}
+#accordionprincipios{
+  height: 100% !important;
+  width:100%;
+  float:left;
+}
+#accordionferramentas{
+  height: 100% !important;
+  width:100%;
+  float:left;
+}
+#accordionrh{
+  height: 100% !important;
+  width:100%;
+  float:left;
+}
+#container-icon{display:none;}
+.icon_inicial{
+width: 60%;
+top: 3px;
+position: relative;}
+.icon_inicial_download{
+width: 46%;
+top: 0px;
+position: relative;}
+@media (max-width: 1250px){
+.top-nav-collapse .navbar-nav>li>a {
+    padding: 19px 10px;
+    padding-top: 19px;
+    padding-right: 5px !important;
+    padding-bottom: 19px;
+    padding-left: 5px !important;
+    font-size: 0.9em !important;
+}}
+#div15{width:15%;float: left;}
+#div85{width:100%;float:left; padding-left: 2%;}
+.panel-grey{float:left;padding:15px; background-color:#fefefe ;font-size: 1.8em;text-align: center;margin:25px 0 25px 0;}
+.panel-body h3{color: #FFCC33 ;}
+.icon_inicial{
+width: 60%;
+top: 3px;
+position: relative;}
+.icon_inicial_download{
+width: 46%;
+top: 0px;
+position: relative;}
+img.arrowvideo {
+    position: absolute;
+    top: 35%;
+    right: 1%;
+    float: right;
+    z-index:1;
+}
+
+section#anch-grupoRenault {
+    /*height: 150vh !important;*/
+}
+
+section#anch-produtos {
+   /*height: 100vh !important;*/
+}
+
+.vel5{
+width:50% !important;
+
+}
+.vel6{
+width:50% !important;
+
+top: 50px;
+positioN: relative;
+
+}
+.imagemproduto{
+
+      float: right;
+      position: relative;
+      width: 15%;
+      margin-bottom: 20px;
+      top: -85px;
+
+}
+.imagemproduto1{
+float: right;
+position: relative;
+width: 15%;
+margin-bottom: 20px;
+top: -35px;
+left: 14%;}
+.imagempaginageral img{width:100%;background-size:cover; position:relative;top: -50px;}
+.imagempaginageral {
+    max-height: 330px;
+}
+section#anch-etica,section#anch-seguranca,section#anch-ambiente,section#anch-qualidade, section#anch-responsabilidade, section#anch-principios, section#anch-apw {
+    /*height: 120vh !important;*/
+}
+
+img.iconprincipios {
+    bottom: 24px;
+    position: relative;
+}
+.features .feature-block .wrapper-icon:before, .features label>.wrapper-icon {
+    background-color: transparent !important;
+}
+.titlea{
+  font-size:17px !important;
+}
+.contactos{width:100%;margin-left:50px;}
+.contactos .adr-contactos, .contactos .org-contactos, .contactos .tel-contactos{}
+.tel-contactos .tel-1, .tel-contactos .tel-8, .tel-contactos .tel-3, .tel-contactos .tel-4, .tel-contactos .tel-5, .tel-contactos .tel-6, .tel-contactos .tel-7, .tel-contactos .tel-9{display:block;padding-bottom: 5px;}
+.overview .panel-title {
+    color: #333;
+    box-shadow: inset 0px 0 0 rgba(0,0,0,.07) !important;
+}
+@media (max-width: 1322px){
+ul.nav.navbar-nav.navbar-right {
+    font-size:smaller !important;
+}}
+
+section#anch-oq1 a{
+    color: #999 !important;}

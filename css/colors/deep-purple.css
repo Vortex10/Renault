@@ -1,0 +1,264 @@
+/*=================================================================================================
+Project:  Blockus
+Version:  1.0.0
+Last change:  07/08/2016
+Design by:  TemplatesPRO.com.br
+---------------------------------------------------------------------------------------------------
+
+INDEX:
+01) PRELOADER (36)
+02) MODAL (69)
+03) NAVBAR - NAVBAR TOGGLE - NAVBAR COLLAPSE (83)
+04) SLIDERS (99)
+05) HOME (110)
+06) FEATURES (135)
+07) OVERVIEW (155)
+08) GALLERY (178)
+09) TESTIMONIALS (190)
+10) PRICES (209)
+11) TEAM (240)
+12) CONTACT (252)
+---------------------------------------------------------------------------------------------------
+
+PALLETE:
+Main Color:
+#673ab7
+
+Main Color Variables:
+#5f32af
+#562e9f
+#7446c6
+rgba(103, 58, 183, 0.1)
+=================================================================================================*/
+
+
+/*------------------------------------------------------------------------------------------------
+ 01) PRELOADER
+ ------------------------------------------------------------------------------------------------*/
+@-webkit-keyframes color-change {
+  0% {
+    color: #673ab7;
+    background: #eee;
+  }
+  50% {
+    color: #fff;
+    background: #673ab7;
+  }
+  100% {
+    color: #673ab7;
+    background: #eee;
+  }
+}
+        @keyframes color-change {
+          0% {
+            color: #673ab7;
+            background: #eee;
+          }
+          50% {
+            color: #fff;
+            background: #673ab7;
+          }
+          100% {
+            color: #673ab7;
+            background: #eee;
+          }
+        }
+
+
+/*------------------------------------------------------------------------------------------------
+ 02) MODAL
+ ------------------------------------------------------------------------------------------------*/
+/* Modal Form (SLIDESHOW)
+ ......................................*/
+.slideshow-modal .panel-heading { background-color: #673ab7; }
+
+.slideshow-modal .btn { background-color: #673ab7; }
+
+/* Modal Info (GALLERY)
+ ......................................*/
+.gallery-modal .title-info-modal { background-color: #673ab7; }
+
+
+/*------------------------------------------------------------------------------------------------
+ 03) NAVBAR - NAVBAR TOGGLE - NAVBAR COLLAPSE
+ ------------------------------------------------------------------------------------------------*/
+/* Home
+ ......................................*/
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover { background-color: #673ab7; }
+
+/* Internal
+ ......................................*/
+.top-nav-collapse .navbar-nav>.active>a,
+.top-nav-collapse .navbar-nav>.active>a:focus,
+.top-nav-collapse .navbar-nav>.active>a:hover { background-color: #673ab7; }
+
+
+/*------------------------------------------------------------------------------------------------
+ 04) SLIDERS
+ ------------------------------------------------------------------------------------------------*/
+.slide-testimonials-bloquotes .slick-track { background-color: #673ab7; }
+
+/* Carousel Controls
+ ......................................*/
+.slick-prev:hover:before,
+.slick-next:hover:before { color: #673ab7; }
+
+
+/*------------------------------------------------------------------------------------------------
+ 05) HOME
+ ------------------------------------------------------------------------------------------------*/
+/* Slideshow - Objects
+ .................................................................................*/
+.slideshow .btn { border-color: #673ab7; }
+.slideshow .btn:focus,
+.slideshow .btn:hover { background-color: #5f32af; }
+
+.slideshow .btn-fill { background-color: #673ab7; }
+
+.slideshow .panel-heading { background-color: #673ab7; }
+
+/* Slideshow - Indicators
+ .................................................................................*/
+.slideshow .carousel-indicators { background-color: #673ab7; }
+
+.slideshow .carousel-indicators>li.active { color: #673ab7; }
+.slideshow .carousel-indicators>li.active .indicators-icon>span,
+.slideshow .carousel-indicators>li.active:hover .indicators-icon>span {
+  border-color: #673ab7;
+  background-color: #673ab7;
+}
+
+
+/*------------------------------------------------------------------------------------------------
+ 06) FEATURES
+ ------------------------------------------------------------------------------------------------*/
+.features .feature-block .wrapper-icon:before { background-color: #673ab7; }
+
+/* Features - Accordion
+ .................................................................................*/
+.features label>.wrapper-icon { background-color: #673ab7; }
+.features label:nth-child(1)>.wrapper-icon { background-color: #562e9f; }
+.features label:nth-child(2)>.wrapper-icon { background-color: #5f32af; }
+.features label:nth-child(3)>.wrapper-icon { background-color: #673ab7; }
+.features label:nth-child(4)>.wrapper-icon { background-color: #7446c6; }
+
+.features label>.wrapper-description { background-color: #673ab7; }
+.features label:nth-child(1)>.wrapper-description { background-color: #562e9f; }
+.features label:nth-child(2)>.wrapper-description { background-color: #5f32af; }
+.features label:nth-child(3)>.wrapper-description { background-color: #673ab7; }
+.features label:nth-child(4)>.wrapper-description { background-color: #7446c6; }
+
+
+/*------------------------------------------------------------------------------------------------
+ 07) OVERVIEW
+ ------------------------------------------------------------------------------------------------*/
+/* Overview - Collapse
+ .................................................................................*/
+.overview .panel-default>.panel-heading { background-color: #673ab7; }
+
+/* Overview - Tabs Content
+ .................................................................................*/
+.overview .overview-tabs>li.active>a { background-color: #673ab7; }
+
+/* Donuts Chart
+ ......................................*/
+.overview .overview-chart g path[data-order="0"] { fill:#7446c6; }
+.overview .overview-chart g path[data-order="1"] { fill:#673ab7; }
+.overview .overview-chart g path[data-order="2"] { fill:#5f32af; }
+.overview .overview-chart g path[data-order="3"] { fill:#562e9f; }
+
+/* Overview - Newsletter
+ .................................................................................*/
+.overview .section-footer { background-color: #673ab7; }
+
+
+/*------------------------------------------------------------------------------------------------
+ 08) GALLERY
+ ------------------------------------------------------------------------------------------------*/
+/* Thumbnail
+ ......................................*/
+.gallery .link-details { background-color: #673ab7; }
+
+.gallery .link-modal { background-color: #673ab7; }
+
+.gallery .thumb-title { background-color: #673ab7; }
+
+
+/*------------------------------------------------------------------------------------------------
+ 09) TESTIMONIALS
+ ------------------------------------------------------------------------------------------------*/
+/* Testimonials - Testimonials Carousel
+ .................................................................................*/
+.testimonials .slide-testimonials-bloquotes { background-color: #673ab7; }
+
+.testimonials blockquote { background-color: #673ab7; }
+.testimonials blockquote:before { border-top-color: #673ab7; }
+
+/* Testimonials - Thumbs Carousel
+ .................................................................................*/
+.testimonials .testimonials-company:hover { color: #673ab7; }
+
+/* Testimonials - Logo Clients
+ .................................................................................*/
+.testimonials .section-footer { background-color: #673ab7; }
+
+
+/*------------------------------------------------------------------------------------------------
+ 10) PRICES
+ ------------------------------------------------------------------------------------------------*/
+.prices .panel-popular { background-color: rgba(103, 58, 183, 0.1); }
+
+.prices .plan-price { background-color: #673ab7; }
+
+.prices .panel-footer .btn {
+  border-color: #673ab7;
+  background-color: #673ab7;
+}
+.prices .panel-footer .btn:focus,
+.prices .panel-footer .btn:hover { background-color: #5f32af; }
+
+@media (min-width: 768px) {
+  .prices .panel:hover {
+    border-color: #673ab7;
+    box-shadow: 0 0 0 3px #673ab7;
+  }
+
+  .prices .panel-popular {
+    border-color: #673ab7;
+    box-shadow: 0 0 0 1px #673ab7;
+  }
+  .prices .panel-popular:hover {
+    background-color: rgba(103, 58, 183, 0.1);
+    box-shadow: 0 0 0 5px #673ab7;
+  }
+}
+
+
+/*------------------------------------------------------------------------------------------------
+ 11) TEAM
+ ------------------------------------------------------------------------------------------------*/
+.team .team-social { background-color: #673ab7; }
+
+.team .team-name { background-color: #673ab7; }
+
+/* Progress Bars
+ ......................................*/
+.team .progress-bar { background-color: #673ab7; }
+
+
+/*------------------------------------------------------------------------------------------------
+ 12) CONTACT
+ ------------------------------------------------------------------------------------------------*/
+.contact .btn { background-color: #673ab7; }
+.contact .btn:focus,
+.contact .btn:hover { background-color: #5f32af; }
+
+/* Contact - Address
+ .................................................................................*/
+.contact .vcard a { color: #673ab7; }
+
+/* Contact - Social Icons
+ .................................................................................*/
+.social-icons .btn-social { background-color: #673ab7; }
